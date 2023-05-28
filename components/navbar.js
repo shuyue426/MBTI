@@ -16,14 +16,14 @@ export default function Navbar(props) {
       label: "Home",
       href: "/"
     },
-    {
-      label: "About",
-      href: "/about"
-    },
-    {
-      label: "Contact",
-      href: "/contact"
-    }
+    // {
+    //   label: "About",
+    //   href: "/about"
+    // },
+    // {
+    //   label: "Contact",
+    //   href: "/contact"
+    // }
   ];
 
   const rightmenu = [
@@ -129,7 +129,7 @@ export default function Navbar(props) {
                 </div>
 
                 <div className="order-2 hidden w-full flex-col items-center justify-start md:order-none md:flex md:w-auto md:flex-1 md:flex-row">
-                  {rightmenu.map((item, index) => (
+                  {/* {rightmenu.map((item, index) => (
                     <Fragment key={`${item.label}${index}`}>
                       {item.children && item.children.length > 0 ? (
                         <DropdownMenu
@@ -153,7 +153,7 @@ export default function Navbar(props) {
                         </Link>
                       )}
                     </Fragment>
-                  ))}
+                  ))} */}
                 </div>
               </div>
               <Disclosure.Panel>

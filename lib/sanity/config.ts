@@ -1,3 +1,11 @@
+/*
+ * @Author: shuyue426 yanbing26@163.com
+ * @Date: 2023-05-28 20:23:57
+ * @LastEditors: shuyue426 yanbing26@163.com
+ * @LastEditTime: 2023-05-28 23:34:28
+ * @FilePath: /MBTI/lib/sanity/config.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 export const useCdn = process.env.NODE_ENV === "production";
 // export const useCdn = false;
 
@@ -6,7 +14,7 @@ export const useCdn = process.env.NODE_ENV === "production";
  * Importing other npm packages here could lead to needlessly increasing the client bundle size, or end up in a server-only function that don't need it.
  */
 
-export const projectId =
+export const projectId = "wf1b1ql1" ||
   process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ||
   process.env.SANITY_STUDIO_PROJECT_ID;
 
