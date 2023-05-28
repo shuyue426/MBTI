@@ -1,3 +1,11 @@
+/*
+ * @Author: shuyue426 yanbing26@163.com
+ * @Date: 2023-05-28 20:23:57
+ * @LastEditors: shuyue426 yanbing26@163.com
+ * @LastEditTime: 2023-05-28 22:07:53
+ * @FilePath: /MBTI/app/(website)/layout.tsx
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { getSettings } from "@/lib/sanity/client";
 import Footer from "@/components/footer";
 import { urlForImage } from "@/lib/sanity/image";
@@ -11,12 +19,12 @@ export async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
+        "MBTI - 16 personalitie",
       template: "%s | Stablo"
     },
     description:
       settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
+       "MBTI - 16 personalitie",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Surjith" }],
     canonical: settings?.url,
