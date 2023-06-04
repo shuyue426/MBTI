@@ -2,7 +2,7 @@
  * @Author: shuyue426 yanbing26@163.com
  * @Date: 2023-05-28 20:23:57
  * @LastEditors: shuyue426 yanbing26@163.com
- * @LastEditTime: 2023-05-28 22:07:53
+ * @LastEditTime: 2023-06-04 10:44:26
  * @FilePath: /MBTI/app/(website)/layout.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -19,12 +19,12 @@ export async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "MBTI - 16 personalitie",
+        "Know Yourself",
       template: "%s | Stablo"
     },
     description:
       settings?.description ||
-       "MBTI - 16 personalitie",
+       "Know Yourself",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Surjith" }],
     canonical: settings?.url,
