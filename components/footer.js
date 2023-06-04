@@ -2,12 +2,13 @@
  * @Author: shuyue426 yanbing26@163.com
  * @Date: 2023-05-28 20:23:57
  * @LastEditors: shuyue426 yanbing26@163.com
- * @LastEditTime: 2023-06-04 10:48:37
+ * @LastEditTime: 2023-06-04 17:02:33
  * @FilePath: /MBTI/components/footer.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 'use client'
-import { MendableFloatingButton } from '@mendable/search'
+import { MendableFloatingButton } from '@mendable/search';
+import { Analytics } from '@vercel/analytics/react';
 import Container from "@/components/container";
 import ThemeSwitch from "@/components/themeSwitch";
 import Image from "next/image";
@@ -66,6 +67,7 @@ export default function Footer(props) {
         <ThemeSwitch />
       </div>
       <Backlink />
+      <Analytics />
     </Container>
   );
 }
